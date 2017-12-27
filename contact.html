@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>contact</title>
+	<style type="text/css">
+		#body{
+			background: url("https://trafficbuilders.us/wp-content/uploads/contact-form-background.png");
+		}
+		ul{
+			list-style-type: none;
+			width: 100%;
+			margin-left:300px;
+			margin-top: 300px;
+		}
+		li{
+			float: left;
+			display: block;
+			margin-left: 100px;
+		}
+		.fa-facebook-official,.fa-google-plus, .fa-linkedin-square{
+			font-size: 50px;
+			color: white;
+		}
+		li:hover{
+			color: white;
+
+		}
+		li:hover .fa-facebook-official{
+			color: #3b5998;
+			cursor: pointer;
+			transform: scale(2,2);
+			transition: 0.5s ease-out;
+		}
+		 li:hover .fa-google-plus{
+		 	color: #dd4b39;
+		 	cursor: pointer;
+			transform: scale(2,2);
+			transition: 0.5s ease-out;
+		 }
+		 li:hover .fa-linkedin-square{
+		 	color: #0e76a8;
+		 	cursor: pointer;
+			transform: scale(2,2);
+			transition: 0.5s ease-out;
+		 }
+	</style>
+</head>
+<body id="body">
+<ul>
+	<li onclick="fb()" title="facebook"><i class="fa fa-facebook-official"></i></li>
+	<li onclick="g()" title="google plus"><i class="fa fa-google-plus"></i></li>
+	<li onclick="lin()" title="linkedin"><i class="fa fa-linkedin-square"></i></li>
+</ul>
+<script type="text/javascript">
+	function fb(){
+		window.open("https://www.facebook.com/akula.nithishkumar","_blank");
+	}
+	function lin(){
+		window.open("https://www.linkedin.com/in/akula-nithish-kumar-15548a145/","_blank");
+	}
+	function g(){
+		window.open("https://plus.google.com/u/0/105291698009810595957","_blank");
+	}
+</script>
+</body>
+</html>
